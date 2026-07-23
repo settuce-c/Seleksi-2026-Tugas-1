@@ -175,7 +175,7 @@ Tiga tabel terakhir merupakan junction table untuk merepresentasikan hubungan ma
 > **TODO:** Tambahkan gambar ERD.
 
 ```md
-![ERD](design/erd.png)
+![ERD](design/ERD.png)
 ```
 
 ---
