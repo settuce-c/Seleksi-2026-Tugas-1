@@ -12,7 +12,7 @@
 
 ## Deskripsi
 
-Project ini bertujuan untuk melakukan scraping data Top Airing Anime dari website MyAnimeList menggunakan Python. Data yang diperoleh kemudian diproses (preprocessing), dinormalisasi menjadi beberapa file JSON, dan diimplementasikan ke dalam database relasional menggunakan PostgreSQL.
+Tugas ini bertujuan untuk melakukan scraping data Top Airing Anime dari website MyAnimeList menggunakan Python. Data yang diperoleh kemudian diproses (preprocessing), dinormalisasi menjadi beberapa file JSON, dan diimplementasikan ke dalam database relasional menggunakan PostgreSQL.
 
 Website yang digunakan:
 
@@ -294,18 +294,48 @@ All data imported successfully.
 Bukti hasil query SELECT terhadap database yang telah diisi.
 
 ```sql
-SELECT title, score
-FROM anime
-WHERE score > 8.5;
+SELECT * FROM anime LIMIT 10;
 ```
 
 ![Query 1](Data%20Storing/screenshot/query_bukti1.png)
 
+```sql
+SELECT title, score
+FROM anime
+ORDER BY score DESC
+LIMIT 10;
+```
+
 ![Query 2](Data%20Storing/screenshot/query_bukti2.png)
+
+```sql
+SELECT title, status
+FROM anime
+WHERE status = 'Currently Airing';
+```
 
 ![Query 3](Data%20Storing/screenshot/query_bukti3.png)
 
+```sql
+SELECT
+a.title,
+g.name
+FROM anime a
+JOIN anime_genres ag ON a.anime_id = ag.anime_id
+JOIN genres g ON ag.genre_id = g.genre_id
+WHERE g.name='Action';
+```
+
 ![Query 4](Data%20Storing/screenshot/query_bukti4.png)
+
+```sql
+SELECT
+a.title,
+s.name
+FROM anime a
+JOIN anime_studios ast ON a.anime_id = ast.anime_id
+JOIN studios s ON ast.studio_id = s.studio_id;
+```
 
 ![Query 5](Data%20Storing/screenshot/query_bukti5.png)
 
@@ -354,19 +384,18 @@ WHERE score > 8.5;
 
 AI digunakan sebagai alat bantu selama proses pengerjaan tugas, terutama pada:
 
-* Memberikan penjelasan mengenai konsep ERD dan diagram relasional.
 * Membantu debugging error selama implementasi PostgreSQL.
-* Memberikan masukan terkait normalisasi database.
 * Membantu penyusunan dokumentasi README.
-* Memberikan contoh query SQL untuk pengujian database.
+* Membantu penyusunan kode untuk data scraping.
 
 Bagian yang tetap dikerjakan secara mandiri meliputi:
 
 * Menentukan topik scraping.
-* Mengembangkan scraper menggunakan Python.
 * Melakukan preprocessing data hasil scraping.
-* Menyusun desain ERD dan diagram relasional.
+* Menyusun desain ERD dan diagram relasional menggunakan draw io.
 * Mengimplementasikan database PostgreSQL.
 * Melakukan pengujian hasil scraping dan proses import data.
+* Menyusun README
+* Menyusun query percobaan
 
 Seluruh hasil yang diberikan AI telah dipelajari kembali, disesuaikan dengan kebutuhan project, serta diuji sebelum digunakan.
