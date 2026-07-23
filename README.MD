@@ -8,17 +8,17 @@
 
 ---
 
-# Step 1 - Data Scraping & Preprocessing
+# Step 1 Data Scraping & Preprocessing
 
 ## Deskripsi
 
-Project ini bertujuan untuk melakukan scraping data **Top Airing Anime** dari website MyAnimeList menggunakan Python. Data yang diperoleh kemudian diproses (preprocessing), dinormalisasi menjadi beberapa file JSON, dan diimplementasikan ke dalam database relasional menggunakan PostgreSQL.
+Project ini bertujuan untuk melakukan scraping data Top Airing Anime dari website MyAnimeList menggunakan Python. Data yang diperoleh kemudian diproses (preprocessing), dinormalisasi menjadi beberapa file JSON, dan diimplementasikan ke dalam database relasional menggunakan PostgreSQL.
 
 Website yang digunakan:
 
 https://myanimelist.net/topanime.php?type=airing
 
-Saya memilih topik ini karena memiliki ketertarikan terhadap anime sehingga lebih memahami struktur data yang tersedia dan lebih mudah melakukan validasi terhadap hasil scraping.
+Topik ini dipilih karena adanya ketertarikan terhadap anime sehingga struktur data yang tersedia lebih mudah dipahami dan hasil scraping lebih mudah divalidasi.
 
 ---
 
@@ -33,7 +33,7 @@ git clone <repository-url>
 2. Masuk ke folder project.
 
 ```bash
-cd Data\ Scraping
+cd "Data Scraping"
 ```
 
 3. Install dependency.
@@ -42,27 +42,31 @@ cd Data\ Scraping
 pip install requests beautifulsoup4 lxml
 ```
 
-> **TODO:** Tambahkan library lain apabila digunakan.
-
 4. Jalankan scraper.
 
 ```bash
-python scraper.py
+python src/code/scraper.py
 ```
 
 5. Setelah proses scraping selesai, hasil akan disimpan ke folder
 
 ```
-data/
+Data Scraping/data/
 ```
 
 berupa beberapa file JSON.
+
+6. Untuk memuat hasil scraping ke dalam database PostgreSQL yang sudah dibuat pada Step 3, jalankan skrip pemuatan data.
+
+```bash
+python src/load_data.py
+```
 
 ---
 
 ## Struktur File JSON
 
-Data hasil scraping dinormalisasi menjadi tujuh buah file JSON.
+Data hasil scraping dinormalisasi menjadi tujuh buah file JSON pada folder `Data Scraping/data`.
 
 | File | Deskripsi |
 |------|-----------|
@@ -70,9 +74,9 @@ Data hasil scraping dinormalisasi menjadi tujuh buah file JSON.
 | genres.json | Menyimpan daftar genre |
 | studios.json | Menyimpan daftar studio |
 | producers.json | Menyimpan daftar producer |
-| anime_genres.json | Relasi many-to-many antara anime dan genre |
-| anime_studios.json | Relasi many-to-many antara anime dan studio |
-| anime_producers.json | Relasi many-to-many antara anime dan producer |
+| anime_genres.json | Relasi banyak ke banyak antara anime dan genre |
+| anime_studios.json | Relasi banyak ke banyak antara anime dan studio |
+| anime_producers.json | Relasi banyak ke banyak antara anime dan producer |
 
 ### Contoh Struktur Data
 
@@ -89,7 +93,7 @@ Data hasil scraping dinormalisasi menjadi tujuh buah file JSON.
     "status": "Currently Airing",
     "aired": "Apr 8, 2026 to ?",
     "duration_minutes": 23,
-    "rating": "R - 17+ (violence & profanity)",
+    "rating": "R 17+ (violence & profanity)",
     "url": "https://myanimelist.net/..."
 }
 ```
@@ -117,7 +121,7 @@ Data hasil scraping dinormalisasi menjadi tujuh buah file JSON.
 ```json
 {
     "producer_id": 1,
-    "name": "AT-X"
+    "name": "AT X"
 }
 ```
 
@@ -150,7 +154,7 @@ Data hasil scraping dinormalisasi menjadi tujuh buah file JSON.
 
 ---
 
-# Step 2 - Data Modelling
+# Step 2 Data Modelling
 
 ## Entity
 
@@ -166,65 +170,63 @@ Database terdiri atas tujuh buah tabel.
 | anime_studios | (anime_id, studio_id) |
 | anime_producers | (anime_id, producer_id) |
 
-Tiga tabel terakhir merupakan junction table untuk merepresentasikan hubungan many-to-many.
+Tiga tabel terakhir merupakan junction table yang merepresentasikan hubungan banyak ke banyak.
 
 ---
 
 ## Entity Relationship Diagram (ERD)
 
-> **TODO:** Tambahkan gambar ERD.
-
-```md
-![ERD](design/ERD.png)
-```
+![ERD](Data%20Storing/design/ERD.png)
 
 ---
 
 ## Diagram Relasional
 
-> **TODO:** Tambahkan gambar diagram relasional.
-
-```md
-![Relational Diagram](design/relational_diagram.png)
-```
+![Relational Diagram](Data%20Storing/design/relational_diagram.png)
 
 ---
 
 ## Translasi ERD ke Database Relasional
 
-ERD diterjemahkan ke dalam model relasional dengan menerapkan normalisasi terhadap hubungan many-to-many.
+ERD diterjemahkan ke dalam model relasional dengan menerapkan normalisasi terhadap hubungan banyak ke banyak.
 
 Relasi antara anime dengan genre, studio, dan producer dipisahkan menggunakan junction table sehingga tidak terjadi redundansi data.
 
 Setiap junction table menggunakan:
 
-- Composite Primary Key
-- Foreign Key
-- Referential Integrity
-- ON DELETE CASCADE
+* Composite primary key
+* Foreign key
+* Referential integrity
+* On delete cascade
 
 ---
 
-# Step 3 - Data Storing
+# Step 3 Data Storing
 
 ## DBMS
 
-Database diimplementasikan menggunakan **PostgreSQL**.
+Database diimplementasikan menggunakan PostgreSQL.
 
 Tabel yang dibuat terdiri atas:
 
-- anime
-- genres
-- studios
-- producers
-- anime_genres
-- anime_studios
-- anime_producers
+* anime
+* genres
+* studios
+* producers
+* anime_genres
+* anime_studios
+* anime_producers
 
 Seluruh query pembuatan tabel tersedia pada file
 
 ```
-schema.sql
+Data Storing/export/schema.sql
+```
+
+Hasil export lengkap database beserta isinya tersedia pada file
+
+```
+Data Storing/export/myanimelist_db.sql
 ```
 
 ---
@@ -260,13 +262,13 @@ ON anime_producers(producer_id);
 Seluruh data JSON diimpor menggunakan script
 
 ```
-load_data.py
+Data Scraping/src/load_data.py
 ```
 
-Cara menjalankan:
+Cara menjalankan (dari root folder repository):
 
 ```bash
-python load_data.py
+python "Data Scraping/src/load_data.py"
 ```
 
 Output:
@@ -274,13 +276,13 @@ Output:
 ```
 Connected to PostgreSQL
 
-✓ 12 genres imported
-✓ 45 studios imported
-✓ 124 producers imported
-✓ 50 anime imported
-✓ 102 anime_genres imported
-✓ 55 anime_studios imported
-✓ 228 anime_producers imported
+12 genres imported
+45 studios imported
+124 producers imported
+50 anime imported
+102 anime_genres imported
+55 anime_studios imported
+228 anime_producers imported
 
 All data imported successfully.
 ```
@@ -289,29 +291,7 @@ All data imported successfully.
 
 ## Screenshot
 
-### Scraper
-
-> **TODO**
-
-```md
-![Scraper](screenshots/scraper.png)
-```
-
----
-
-### PostgreSQL
-
-> **TODO**
-
-```md
-![PostgreSQL](screenshots/postgresql.png)
-```
-
----
-
-### Query
-
-Contoh query yang digunakan.
+Bukti hasil query SELECT terhadap database yang telah diisi.
 
 ```sql
 SELECT title, score
@@ -319,11 +299,15 @@ FROM anime
 WHERE score > 8.5;
 ```
 
-> **TODO**
+![Query 1](Data%20Storing/screenshot/query_bukti1.png)
 
-```md
-![Query](screenshots/query1.png)
-```
+![Query 2](Data%20Storing/screenshot/query_bukti2.png)
+
+![Query 3](Data%20Storing/screenshot/query_bukti3.png)
+
+![Query 4](Data%20Storing/screenshot/query_bukti4.png)
+
+![Query 5](Data%20Storing/screenshot/query_bukti5.png)
 
 ---
 
@@ -332,19 +316,25 @@ WHERE score > 8.5;
 ```
 .
 ├── Data Scraping
-│   ├── scraper.py
 │   ├── data
-│   └── screenshots
-│
-├── Data Modelling
-│   ├── erd.png
-│   └── relational_diagram.png
-│
+│   └── src
+│       ├── code
+│       │   └── scraper.py
+│       └── load_data.py
 ├── Data Storing
-│   ├── schema.sql
-│   ├── load_data.py
-│   └── screenshots
-│
+│   ├── design
+│   │   ├── ERD.png
+│   │   └── relational_diagram.png
+│   ├── export
+│   │   ├── myanimelist_db.sql
+│   │   └── schema.sql
+│   ├── screenshot
+│   │   ├── query_bukti1.png
+│   │   ├── query_bukti2.png
+│   │   ├── query_bukti3.png
+│   │   ├── query_bukti4.png
+│   │   └── query_bukti5.png
+│   └── src
 └── README.md
 ```
 
@@ -352,11 +342,11 @@ WHERE score > 8.5;
 
 # Referensi
 
-- MyAnimeList
-- BeautifulSoup4 Documentation
-- Requests Documentation
-- PostgreSQL Documentation
-- psycopg2 Documentation
+* MyAnimeList
+* BeautifulSoup4 Documentation
+* Requests Documentation
+* PostgreSQL Documentation
+* psycopg2 Documentation
 
 ---
 
@@ -364,19 +354,19 @@ WHERE score > 8.5;
 
 AI digunakan sebagai alat bantu selama proses pengerjaan tugas, terutama pada:
 
-- Memberikan penjelasan mengenai konsep ERD dan diagram relasional.
-- Membantu debugging error selama implementasi PostgreSQL.
-- Memberikan masukan terkait normalisasi database.
-- Membantu penyusunan dokumentasi README.
-- Memberikan contoh query SQL untuk pengujian database.
+* Memberikan penjelasan mengenai konsep ERD dan diagram relasional.
+* Membantu debugging error selama implementasi PostgreSQL.
+* Memberikan masukan terkait normalisasi database.
+* Membantu penyusunan dokumentasi README.
+* Memberikan contoh query SQL untuk pengujian database.
 
 Bagian yang tetap dikerjakan secara mandiri meliputi:
 
-- Menentukan topik scraping.
-- Mengembangkan scraper menggunakan Python.
-- Melakukan preprocessing data hasil scraping.
-- Menyusun desain ERD dan diagram relasional.
-- Mengimplementasikan database PostgreSQL.
-- Melakukan pengujian hasil scraping dan proses import data.
+* Menentukan topik scraping.
+* Mengembangkan scraper menggunakan Python.
+* Melakukan preprocessing data hasil scraping.
+* Menyusun desain ERD dan diagram relasional.
+* Mengimplementasikan database PostgreSQL.
+* Melakukan pengujian hasil scraping dan proses import data.
 
 Seluruh hasil yang diberikan AI telah dipelajari kembali, disesuaikan dengan kebutuhan project, serta diuji sebelum digunakan.
