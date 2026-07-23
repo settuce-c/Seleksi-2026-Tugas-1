@@ -1,0 +1,498 @@
+[
+    {
+        "producer_id": 1,
+        "name": "AT-X"
+    },
+    {
+        "producer_id": 2,
+        "name": "Magic Capsule"
+    },
+    {
+        "producer_id": 3,
+        "name": "Memory-Tech"
+    },
+    {
+        "producer_id": 4,
+        "name": "Hakuhodo DY Music & Pictures"
+    },
+    {
+        "producer_id": 5,
+        "name": "Kadokawa"
+    },
+    {
+        "producer_id": 6,
+        "name": "DAXEL"
+    },
+    {
+        "producer_id": 7,
+        "name": "Warner Bros. Japan"
+    },
+    {
+        "producer_id": 8,
+        "name": "Studio Mausu"
+    },
+    {
+        "producer_id": 9,
+        "name": "ONEMUSIC"
+    },
+    {
+        "producer_id": 10,
+        "name": "Frontier Works"
+    },
+    {
+        "producer_id": 11,
+        "name": "TOHO"
+    },
+    {
+        "producer_id": 12,
+        "name": "BS11"
+    },
+    {
+        "producer_id": 13,
+        "name": "Egg Firm"
+    },
+    {
+        "producer_id": 14,
+        "name": "TOHO Music"
+    },
+    {
+        "producer_id": 15,
+        "name": "GREE Entertainment"
+    },
+    {
+        "producer_id": 16,
+        "name": "Fuji TV"
+    },
+    {
+        "producer_id": 17,
+        "name": "TAP"
+    },
+    {
+        "producer_id": 18,
+        "name": "add some"
+    },
+    {
+        "producer_id": 19,
+        "name": "bilibili"
+    },
+    {
+        "producer_id": 20,
+        "name": "Tencent Video"
+    },
+    {
+        "producer_id": 21,
+        "name": "TV Asahi"
+    },
+    {
+        "producer_id": 22,
+        "name": "Bit grooove promotion"
+    },
+    {
+        "producer_id": 23,
+        "name": "BS Asahi"
+    },
+    {
+        "producer_id": 24,
+        "name": "TV Asahi Music"
+    },
+    {
+        "producer_id": 25,
+        "name": "Sammy"
+    },
+    {
+        "producer_id": 26,
+        "name": "Sony Music Solutions"
+    },
+    {
+        "producer_id": 27,
+        "name": "China Literature Limited"
+    },
+    {
+        "producer_id": 28,
+        "name": "Wanda Cinemas"
+    },
+    {
+        "producer_id": 29,
+        "name": "Mainichi Broadcasting System"
+    },
+    {
+        "producer_id": 30,
+        "name": "Kodansha"
+    },
+    {
+        "producer_id": 31,
+        "name": "NBCUniversal Entertainment Japan"
+    },
+    {
+        "producer_id": 32,
+        "name": "Avex Pictures"
+    },
+    {
+        "producer_id": 33,
+        "name": "JR East Marketing & Communications"
+    },
+    {
+        "producer_id": 34,
+        "name": "Saber Links"
+    },
+    {
+        "producer_id": 35,
+        "name": "qooop"
+    },
+    {
+        "producer_id": 36,
+        "name": "TBS"
+    },
+    {
+        "producer_id": 37,
+        "name": "Asmik Ace"
+    },
+    {
+        "producer_id": 38,
+        "name": "Nichion"
+    },
+    {
+        "producer_id": 39,
+        "name": "AbemaTV"
+    },
+    {
+        "producer_id": 40,
+        "name": "arma bianca"
+    },
+    {
+        "producer_id": 41,
+        "name": "ADK Marketing Solutions"
+    },
+    {
+        "producer_id": 42,
+        "name": "Dentsu"
+    },
+    {
+        "producer_id": 43,
+        "name": "Shochiku"
+    },
+    {
+        "producer_id": 44,
+        "name": "Tohokushinsha Film Corporation"
+    },
+    {
+        "producer_id": 45,
+        "name": "Shueisha"
+    },
+    {
+        "producer_id": 46,
+        "name": "Shochiku Music Publishing"
+    },
+    {
+        "producer_id": 47,
+        "name": "Yomiuri Telecasting"
+    },
+    {
+        "producer_id": 48,
+        "name": "Shogakukan"
+    },
+    {
+        "producer_id": 49,
+        "name": "Audio Planning U"
+    },
+    {
+        "producer_id": 50,
+        "name": "Tokyo Movie"
+    },
+    {
+        "producer_id": 51,
+        "name": "Polydor Records"
+    },
+    {
+        "producer_id": 52,
+        "name": "Zet"
+    },
+    {
+        "producer_id": 53,
+        "name": "Lantis"
+    },
+    {
+        "producer_id": 54,
+        "name": "Movic"
+    },
+    {
+        "producer_id": 55,
+        "name": "Bushiroad"
+    },
+    {
+        "producer_id": 56,
+        "name": "Tokyo MX"
+    },
+    {
+        "producer_id": 57,
+        "name": "Bandai Namco Music Live"
+    },
+    {
+        "producer_id": 58,
+        "name": "Nippon Television Network"
+    },
+    {
+        "producer_id": 59,
+        "name": "Micro Magazine Publishing"
+    },
+    {
+        "producer_id": 60,
+        "name": "Bandai Spirits"
+    },
+    {
+        "producer_id": 61,
+        "name": "Bandai Namco Filmworks"
+    },
+    {
+        "producer_id": 62,
+        "name": "Xuanshi Tangmen"
+    },
+    {
+        "producer_id": 63,
+        "name": "Production I.G"
+    },
+    {
+        "producer_id": 64,
+        "name": "flying DOG"
+    },
+    {
+        "producer_id": 65,
+        "name": "Kansai TV"
+    },
+    {
+        "producer_id": 66,
+        "name": "SB Creative"
+    },
+    {
+        "producer_id": 67,
+        "name": "Clare Voice"
+    },
+    {
+        "producer_id": 68,
+        "name": "viviON"
+    },
+    {
+        "producer_id": 69,
+        "name": "Bones"
+    },
+    {
+        "producer_id": 70,
+        "name": "Aniplex"
+    },
+    {
+        "producer_id": 71,
+        "name": "Square Enix"
+    },
+    {
+        "producer_id": 72,
+        "name": "Peerless Gerbera"
+    },
+    {
+        "producer_id": 73,
+        "name": "WOWOW"
+    },
+    {
+        "producer_id": 74,
+        "name": "Infinite"
+    },
+    {
+        "producer_id": 75,
+        "name": "Kadokawa Media House"
+    },
+    {
+        "producer_id": 76,
+        "name": "Ichijinsha"
+    },
+    {
+        "producer_id": 77,
+        "name": "NewGin"
+    },
+    {
+        "producer_id": 78,
+        "name": "Sound Team Don Juan"
+    },
+    {
+        "producer_id": 79,
+        "name": "Pia"
+    },
+    {
+        "producer_id": 80,
+        "name": "West Japan Marketing Communications"
+    },
+    {
+        "producer_id": 81,
+        "name": "KlockWorx"
+    },
+    {
+        "producer_id": 82,
+        "name": "Yomiuri TV Enterprise"
+    },
+    {
+        "producer_id": 83,
+        "name": "TO Books"
+    },
+    {
+        "producer_id": 84,
+        "name": "Youku"
+    },
+    {
+        "producer_id": 85,
+        "name": "Bu Keneng de Shijie"
+    },
+    {
+        "producer_id": 86,
+        "name": "TV Tokyo"
+    },
+    {
+        "producer_id": 87,
+        "name": "TOHO animation"
+    },
+    {
+        "producer_id": 88,
+        "name": "Verygoo"
+    },
+    {
+        "producer_id": 89,
+        "name": "Pony Canyon"
+    },
+    {
+        "producer_id": 90,
+        "name": "Rakuonsha"
+    },
+    {
+        "producer_id": 91,
+        "name": "ABC Animation"
+    },
+    {
+        "producer_id": 92,
+        "name": "Heart Company"
+    },
+    {
+        "producer_id": 93,
+        "name": "Crunchyroll"
+    },
+    {
+        "producer_id": 94,
+        "name": "BS NTV"
+    },
+    {
+        "producer_id": 95,
+        "name": "INSPION Edge"
+    },
+    {
+        "producer_id": 96,
+        "name": "LINE Digital Frontier"
+    },
+    {
+        "producer_id": 97,
+        "name": "DAX Production"
+    },
+    {
+        "producer_id": 98,
+        "name": "Docomo Anime Store"
+    },
+    {
+        "producer_id": 99,
+        "name": "Nippon Television Music"
+    },
+    {
+        "producer_id": 100,
+        "name": "MAGNET"
+    },
+    {
+        "producer_id": 101,
+        "name": "Bushiroad Move"
+    },
+    {
+        "producer_id": 102,
+        "name": "Hike"
+    },
+    {
+        "producer_id": 103,
+        "name": "Takarajimasha"
+    },
+    {
+        "producer_id": 104,
+        "name": "Glovision"
+    },
+    {
+        "producer_id": 105,
+        "name": "Contents Seed"
+    },
+    {
+        "producer_id": 106,
+        "name": "Good Smile Film"
+    },
+    {
+        "producer_id": 107,
+        "name": "Sankyo"
+    },
+    {
+        "producer_id": 108,
+        "name": "ADK Emotions"
+    },
+    {
+        "producer_id": 109,
+        "name": "Quyue Technology"
+    },
+    {
+        "producer_id": 110,
+        "name": "Stay Luck"
+    },
+    {
+        "producer_id": 111,
+        "name": "Satelight"
+    },
+    {
+        "producer_id": 112,
+        "name": "VAP"
+    },
+    {
+        "producer_id": 113,
+        "name": "Shogakukan-Shueisha Productions"
+    },
+    {
+        "producer_id": 114,
+        "name": "Miracle Bus"
+    },
+    {
+        "producer_id": 115,
+        "name": "Ultra Super Pictures"
+    },
+    {
+        "producer_id": 116,
+        "name": "Good Smile Company"
+    },
+    {
+        "producer_id": 117,
+        "name": "Bushiroad Music"
+    },
+    {
+        "producer_id": 118,
+        "name": "HoriPro International"
+    },
+    {
+        "producer_id": 119,
+        "name": "U-NEXT"
+    },
+    {
+        "producer_id": 120,
+        "name": "Toy's Factory"
+    },
+    {
+        "producer_id": 121,
+        "name": "CyberAgent"
+    },
+    {
+        "producer_id": 122,
+        "name": "Cygames"
+    },
+    {
+        "producer_id": 123,
+        "name": "dugout"
+    },
+    {
+        "producer_id": 124,
+        "name": "Happinet Media Marketing"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "genre_id": 1,
+        "name": "Drama"
+    },
+    {
+        "genre_id": 2,
+        "name": "Fantasy"
+    },
+    {
+        "genre_id": 3,
+        "name": "Suspense"
+    },
+    {
+        "genre_id": 4,
+        "name": "Action"
+    },
+    {
+        "genre_id": 5,
+        "name": "Adventure"
+    },
+    {
+        "genre_id": 6,
+        "name": "Mystery"
+    },
+    {
+        "genre_id": 7,
+        "name": "Supernatural"
+    },
+    {
+        "genre_id": 8,
+        "name": "Ecchi"
+    },
+    {
+        "genre_id": 9,
+        "name": "Comedy"
+    },
+    {
+        "genre_id": 10,
+        "name": "Romance"
+    },
+    {
+        "genre_id": 11,
+        "name": "Sci-Fi"
+    },
+    {
+        "genre_id": 12,
+        "name": "Girls Love"
+    }
+]

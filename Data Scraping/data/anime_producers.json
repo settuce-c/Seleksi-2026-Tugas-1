@@ -1,0 +1,914 @@
+[
+    {
+        "anime_id": 61316,
+        "producer_id": 1
+    },
+    {
+        "anime_id": 61316,
+        "producer_id": 2
+    },
+    {
+        "anime_id": 61316,
+        "producer_id": 3
+    },
+    {
+        "anime_id": 61316,
+        "producer_id": 4
+    },
+    {
+        "anime_id": 61316,
+        "producer_id": 5
+    },
+    {
+        "anime_id": 61316,
+        "producer_id": 6
+    },
+    {
+        "anime_id": 61469,
+        "producer_id": 7
+    },
+    {
+        "anime_id": 61469,
+        "producer_id": 8
+    },
+    {
+        "anime_id": 61469,
+        "producer_id": 9
+    },
+    {
+        "anime_id": 59193,
+        "producer_id": 10
+    },
+    {
+        "anime_id": 59193,
+        "producer_id": 11
+    },
+    {
+        "anime_id": 59193,
+        "producer_id": 2
+    },
+    {
+        "anime_id": 59193,
+        "producer_id": 4
+    },
+    {
+        "anime_id": 59193,
+        "producer_id": 12
+    },
+    {
+        "anime_id": 59193,
+        "producer_id": 13
+    },
+    {
+        "anime_id": 59193,
+        "producer_id": 5
+    },
+    {
+        "anime_id": 59193,
+        "producer_id": 14
+    },
+    {
+        "anime_id": 59193,
+        "producer_id": 15
+    },
+    {
+        "anime_id": 21,
+        "producer_id": 16
+    },
+    {
+        "anime_id": 21,
+        "producer_id": 17
+    },
+    {
+        "anime_id": 50250,
+        "producer_id": 18
+    },
+    {
+        "anime_id": 60988,
+        "producer_id": 19
+    },
+    {
+        "anime_id": 55809,
+        "producer_id": 20
+    },
+    {
+        "anime_id": 61483,
+        "producer_id": 21
+    },
+    {
+        "anime_id": 61483,
+        "producer_id": 22
+    },
+    {
+        "anime_id": 61483,
+        "producer_id": 23
+    },
+    {
+        "anime_id": 61483,
+        "producer_id": 24
+    },
+    {
+        "anime_id": 49233,
+        "producer_id": 1
+    },
+    {
+        "anime_id": 49233,
+        "producer_id": 2
+    },
+    {
+        "anime_id": 49233,
+        "producer_id": 25
+    },
+    {
+        "anime_id": 49233,
+        "producer_id": 5
+    },
+    {
+        "anime_id": 49233,
+        "producer_id": 26
+    },
+    {
+        "anime_id": 51039,
+        "producer_id": 20
+    },
+    {
+        "anime_id": 51039,
+        "producer_id": 27
+    },
+    {
+        "anime_id": 51039,
+        "producer_id": 28
+    },
+    {
+        "anime_id": 62542,
+        "producer_id": 29
+    },
+    {
+        "anime_id": 62542,
+        "producer_id": 30
+    },
+    {
+        "anime_id": 62542,
+        "producer_id": 31
+    },
+    {
+        "anime_id": 62542,
+        "producer_id": 32
+    },
+    {
+        "anime_id": 62542,
+        "producer_id": 33
+    },
+    {
+        "anime_id": 62542,
+        "producer_id": 34
+    },
+    {
+        "anime_id": 62542,
+        "producer_id": 35
+    },
+    {
+        "anime_id": 62076,
+        "producer_id": 36
+    },
+    {
+        "anime_id": 62076,
+        "producer_id": 37
+    },
+    {
+        "anime_id": 62076,
+        "producer_id": 38
+    },
+    {
+        "anime_id": 62076,
+        "producer_id": 39
+    },
+    {
+        "anime_id": 62076,
+        "producer_id": 40
+    },
+    {
+        "anime_id": 62076,
+        "producer_id": 22
+    },
+    {
+        "anime_id": 62076,
+        "producer_id": 41
+    },
+    {
+        "anime_id": 63832,
+        "producer_id": 42
+    },
+    {
+        "anime_id": 63832,
+        "producer_id": 43
+    },
+    {
+        "anime_id": 63832,
+        "producer_id": 29
+    },
+    {
+        "anime_id": 63832,
+        "producer_id": 44
+    },
+    {
+        "anime_id": 63832,
+        "producer_id": 45
+    },
+    {
+        "anime_id": 63832,
+        "producer_id": 46
+    },
+    {
+        "anime_id": 63832,
+        "producer_id": 39
+    },
+    {
+        "anime_id": 56524,
+        "producer_id": 20
+    },
+    {
+        "anime_id": 59953,
+        "producer_id": 19
+    },
+    {
+        "anime_id": 235,
+        "producer_id": 47
+    },
+    {
+        "anime_id": 235,
+        "producer_id": 48
+    },
+    {
+        "anime_id": 235,
+        "producer_id": 49
+    },
+    {
+        "anime_id": 235,
+        "producer_id": 50
+    },
+    {
+        "anime_id": 235,
+        "producer_id": 51
+    },
+    {
+        "anime_id": 235,
+        "producer_id": 52
+    },
+    {
+        "anime_id": 62811,
+        "producer_id": 53
+    },
+    {
+        "anime_id": 62811,
+        "producer_id": 54
+    },
+    {
+        "anime_id": 62811,
+        "producer_id": 55
+    },
+    {
+        "anime_id": 62811,
+        "producer_id": 56
+    },
+    {
+        "anime_id": 62811,
+        "producer_id": 45
+    },
+    {
+        "anime_id": 62811,
+        "producer_id": 57
+    },
+    {
+        "anime_id": 44042,
+        "producer_id": 18
+    },
+    {
+        "anime_id": 59970,
+        "producer_id": 53
+    },
+    {
+        "anime_id": 59970,
+        "producer_id": 30
+    },
+    {
+        "anime_id": 59970,
+        "producer_id": 2
+    },
+    {
+        "anime_id": 59970,
+        "producer_id": 58
+    },
+    {
+        "anime_id": 59970,
+        "producer_id": 12
+    },
+    {
+        "anime_id": 59970,
+        "producer_id": 59
+    },
+    {
+        "anime_id": 59970,
+        "producer_id": 60
+    },
+    {
+        "anime_id": 59970,
+        "producer_id": 26
+    },
+    {
+        "anime_id": 59970,
+        "producer_id": 41
+    },
+    {
+        "anime_id": 59970,
+        "producer_id": 61
+    },
+    {
+        "anime_id": 59970,
+        "producer_id": 57
+    },
+    {
+        "anime_id": 60310,
+        "producer_id": 18
+    },
+    {
+        "anime_id": 51836,
+        "producer_id": 20
+    },
+    {
+        "anime_id": 51836,
+        "producer_id": 62
+    },
+    {
+        "anime_id": 58929,
+        "producer_id": 63
+    },
+    {
+        "anime_id": 58929,
+        "producer_id": 42
+    },
+    {
+        "anime_id": 58929,
+        "producer_id": 30
+    },
+    {
+        "anime_id": 58929,
+        "producer_id": 64
+    },
+    {
+        "anime_id": 58929,
+        "producer_id": 44
+    },
+    {
+        "anime_id": 58929,
+        "producer_id": 65
+    },
+    {
+        "anime_id": 58929,
+        "producer_id": 61
+    },
+    {
+        "anime_id": 62936,
+        "producer_id": 43
+    },
+    {
+        "anime_id": 62936,
+        "producer_id": 1
+    },
+    {
+        "anime_id": 62936,
+        "producer_id": 8
+    },
+    {
+        "anime_id": 62936,
+        "producer_id": 46
+    },
+    {
+        "anime_id": 62936,
+        "producer_id": 66
+    },
+    {
+        "anime_id": 62936,
+        "producer_id": 67
+    },
+    {
+        "anime_id": 62936,
+        "producer_id": 68
+    },
+    {
+        "anime_id": 63240,
+        "producer_id": 19
+    },
+    {
+        "anime_id": 62001,
+        "producer_id": 69
+    },
+    {
+        "anime_id": 62001,
+        "producer_id": 70
+    },
+    {
+        "anime_id": 62001,
+        "producer_id": 71
+    },
+    {
+        "anime_id": 62001,
+        "producer_id": 72
+    },
+    {
+        "anime_id": 47405,
+        "producer_id": 20
+    },
+    {
+        "anime_id": 61126,
+        "producer_id": 73
+    },
+    {
+        "anime_id": 61126,
+        "producer_id": 54
+    },
+    {
+        "anime_id": 61126,
+        "producer_id": 1
+    },
+    {
+        "anime_id": 61126,
+        "producer_id": 2
+    },
+    {
+        "anime_id": 61126,
+        "producer_id": 74
+    },
+    {
+        "anime_id": 61126,
+        "producer_id": 75
+    },
+    {
+        "anime_id": 61126,
+        "producer_id": 76
+    },
+    {
+        "anime_id": 61126,
+        "producer_id": 5
+    },
+    {
+        "anime_id": 61126,
+        "producer_id": 77
+    },
+    {
+        "anime_id": 58878,
+        "producer_id": 47
+    },
+    {
+        "anime_id": 58878,
+        "producer_id": 78
+    },
+    {
+        "anime_id": 58878,
+        "producer_id": 25
+    },
+    {
+        "anime_id": 58878,
+        "producer_id": 5
+    },
+    {
+        "anime_id": 58878,
+        "producer_id": 40
+    },
+    {
+        "anime_id": 58878,
+        "producer_id": 79
+    },
+    {
+        "anime_id": 58878,
+        "producer_id": 23
+    },
+    {
+        "anime_id": 58878,
+        "producer_id": 80
+    },
+    {
+        "anime_id": 966,
+        "producer_id": 21
+    },
+    {
+        "anime_id": 57466,
+        "producer_id": 47
+    },
+    {
+        "anime_id": 57466,
+        "producer_id": 43
+    },
+    {
+        "anime_id": 57466,
+        "producer_id": 54
+    },
+    {
+        "anime_id": 57466,
+        "producer_id": 81
+    },
+    {
+        "anime_id": 57466,
+        "producer_id": 64
+    },
+    {
+        "anime_id": 57466,
+        "producer_id": 82
+    },
+    {
+        "anime_id": 57466,
+        "producer_id": 83
+    },
+    {
+        "anime_id": 64398,
+        "producer_id": 84
+    },
+    {
+        "anime_id": 64398,
+        "producer_id": 85
+    },
+    {
+        "anime_id": 8687,
+        "producer_id": 21
+    },
+    {
+        "anime_id": 61240,
+        "producer_id": 86
+    },
+    {
+        "anime_id": 61240,
+        "producer_id": 44
+    },
+    {
+        "anime_id": 61240,
+        "producer_id": 87
+    },
+    {
+        "anime_id": 61240,
+        "producer_id": 76
+    },
+    {
+        "anime_id": 61240,
+        "producer_id": 14
+    },
+    {
+        "anime_id": 61240,
+        "producer_id": 88
+    },
+    {
+        "anime_id": 62856,
+        "producer_id": 53
+    },
+    {
+        "anime_id": 62856,
+        "producer_id": 89
+    },
+    {
+        "anime_id": 62856,
+        "producer_id": 90
+    },
+    {
+        "anime_id": 62856,
+        "producer_id": 91
+    },
+    {
+        "anime_id": 62856,
+        "producer_id": 92
+    },
+    {
+        "anime_id": 62856,
+        "producer_id": 57
+    },
+    {
+        "anime_id": 51289,
+        "producer_id": 20
+    },
+    {
+        "anime_id": 62513,
+        "producer_id": 1
+    },
+    {
+        "anime_id": 62513,
+        "producer_id": 25
+    },
+    {
+        "anime_id": 62513,
+        "producer_id": 93
+    },
+    {
+        "anime_id": 62513,
+        "producer_id": 94
+    },
+    {
+        "anime_id": 62513,
+        "producer_id": 5
+    },
+    {
+        "anime_id": 62513,
+        "producer_id": 95
+    },
+    {
+        "anime_id": 62513,
+        "producer_id": 96
+    },
+    {
+        "anime_id": 61048,
+        "producer_id": 47
+    },
+    {
+        "anime_id": 61048,
+        "producer_id": 97
+    },
+    {
+        "anime_id": 61048,
+        "producer_id": 81
+    },
+    {
+        "anime_id": 61048,
+        "producer_id": 56
+    },
+    {
+        "anime_id": 61048,
+        "producer_id": 98
+    },
+    {
+        "anime_id": 61048,
+        "producer_id": 99
+    },
+    {
+        "anime_id": 61048,
+        "producer_id": 94
+    },
+    {
+        "anime_id": 61048,
+        "producer_id": 100
+    },
+    {
+        "anime_id": 61048,
+        "producer_id": 79
+    },
+    {
+        "anime_id": 61048,
+        "producer_id": 101
+    },
+    {
+        "anime_id": 61048,
+        "producer_id": 102
+    },
+    {
+        "anime_id": 61048,
+        "producer_id": 103
+    },
+    {
+        "anime_id": 63150,
+        "producer_id": 89
+    },
+    {
+        "anime_id": 63150,
+        "producer_id": 36
+    },
+    {
+        "anime_id": 63150,
+        "producer_id": 81
+    },
+    {
+        "anime_id": 63150,
+        "producer_id": 104
+    },
+    {
+        "anime_id": 63150,
+        "producer_id": 12
+    },
+    {
+        "anime_id": 63150,
+        "producer_id": 105
+    },
+    {
+        "anime_id": 63150,
+        "producer_id": 5
+    },
+    {
+        "anime_id": 63150,
+        "producer_id": 106
+    },
+    {
+        "anime_id": 63150,
+        "producer_id": 107
+    },
+    {
+        "anime_id": 55315,
+        "producer_id": 18
+    },
+    {
+        "anime_id": 63042,
+        "producer_id": 21
+    },
+    {
+        "anime_id": 63042,
+        "producer_id": 91
+    },
+    {
+        "anime_id": 63042,
+        "producer_id": 108
+    },
+    {
+        "anime_id": 61921,
+        "producer_id": 84
+    },
+    {
+        "anime_id": 41409,
+        "producer_id": 20
+    },
+    {
+        "anime_id": 41409,
+        "producer_id": 109
+    },
+    {
+        "anime_id": 60059,
+        "producer_id": 70
+    },
+    {
+        "anime_id": 60059,
+        "producer_id": 42
+    },
+    {
+        "anime_id": 60059,
+        "producer_id": 16
+    },
+    {
+        "anime_id": 60059,
+        "producer_id": 56
+    },
+    {
+        "anime_id": 60059,
+        "producer_id": 45
+    },
+    {
+        "anime_id": 60059,
+        "producer_id": 12
+    },
+    {
+        "anime_id": 60059,
+        "producer_id": 22
+    },
+    {
+        "anime_id": 60534,
+        "producer_id": 110
+    },
+    {
+        "anime_id": 50855,
+        "producer_id": 63
+    },
+    {
+        "anime_id": 50855,
+        "producer_id": 111
+    },
+    {
+        "anime_id": 50855,
+        "producer_id": 43
+    },
+    {
+        "anime_id": 50855,
+        "producer_id": 60
+    },
+    {
+        "anime_id": 50855,
+        "producer_id": 41
+    },
+    {
+        "anime_id": 50855,
+        "producer_id": 61
+    },
+    {
+        "anime_id": 50855,
+        "producer_id": 57
+    },
+    {
+        "anime_id": 61280,
+        "producer_id": 112
+    },
+    {
+        "anime_id": 61280,
+        "producer_id": 10
+    },
+    {
+        "anime_id": 61280,
+        "producer_id": 113
+    },
+    {
+        "anime_id": 61280,
+        "producer_id": 58
+    },
+    {
+        "anime_id": 61280,
+        "producer_id": 114
+    },
+    {
+        "anime_id": 61280,
+        "producer_id": 48
+    },
+    {
+        "anime_id": 61280,
+        "producer_id": 22
+    },
+    {
+        "anime_id": 62430,
+        "producer_id": 115
+    },
+    {
+        "anime_id": 62430,
+        "producer_id": 55
+    },
+    {
+        "anime_id": 62430,
+        "producer_id": 56
+    },
+    {
+        "anime_id": 62430,
+        "producer_id": 116
+    },
+    {
+        "anime_id": 62430,
+        "producer_id": 117
+    },
+    {
+        "anime_id": 62430,
+        "producer_id": 118
+    },
+    {
+        "anime_id": 62430,
+        "producer_id": 22
+    },
+    {
+        "anime_id": 62651,
+        "producer_id": 84
+    },
+    {
+        "anime_id": 46488,
+        "producer_id": 29
+    },
+    {
+        "anime_id": 46488,
+        "producer_id": 1
+    },
+    {
+        "anime_id": 46488,
+        "producer_id": 119
+    },
+    {
+        "anime_id": 46488,
+        "producer_id": 94
+    },
+    {
+        "anime_id": 46488,
+        "producer_id": 5
+    },
+    {
+        "anime_id": 46488,
+        "producer_id": 22
+    },
+    {
+        "anime_id": 46488,
+        "producer_id": 79
+    },
+    {
+        "anime_id": 63347,
+        "producer_id": 43
+    },
+    {
+        "anime_id": 63347,
+        "producer_id": 56
+    },
+    {
+        "anime_id": 63347,
+        "producer_id": 120
+    },
+    {
+        "anime_id": 63347,
+        "producer_id": 121
+    },
+    {
+        "anime_id": 63347,
+        "producer_id": 122
+    },
+    {
+        "anime_id": 63347,
+        "producer_id": 46
+    },
+    {
+        "anime_id": 63347,
+        "producer_id": 123
+    },
+    {
+        "anime_id": 63347,
+        "producer_id": 40
+    },
+    {
+        "anime_id": 63347,
+        "producer_id": 23
+    },
+    {
+        "anime_id": 63347,
+        "producer_id": 124
+    }
+]
