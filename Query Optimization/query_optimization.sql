@@ -1,7 +1,24 @@
--- ============================================================
+CREATE INDEX idx_anime_genres_anime
+ON anime_genres(anime_id);
+
+CREATE INDEX idx_anime_genres_genre
+ON anime_genres(genre_id);
+
+CREATE INDEX idx_anime_studios_anime
+ON anime_studios(anime_id);
+
+CREATE INDEX idx_anime_studios_studio
+ON anime_studios(studio_id);
+
+CREATE INDEX idx_anime_producers_anime
+ON anime_producers(anime_id);
+
+CREATE INDEX idx_anime_producers_producer
+ON anime_producers(producer_id);
+
+
 -- QUERY OPTIMIZATION 1
 -- Menampilkan anime dengan genre Action.
--- ============================================================
 
 -- BEFORE
 EXPLAIN ANALYZE
@@ -24,10 +41,9 @@ JOIN anime a
 WHERE g.name = 'Action';
 
 
--- ============================================================
+
 -- QUERY OPTIMIZATION 2
 -- Menampilkan anime beserta studionya.
--- ============================================================
 
 -- BEFORE
 EXPLAIN ANALYZE
@@ -50,10 +66,9 @@ JOIN anime a
     ON ast.anime_id = a.anime_id;
 
 
--- ============================================================
+
 -- QUERY OPTIMIZATION 3
 -- Menghitung jumlah anime pada setiap genre.
--- ============================================================
 
 -- BEFORE
 EXPLAIN ANALYZE
